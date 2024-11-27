@@ -39,17 +39,54 @@
                     <li><strong>Modalidad:</strong> 1v1</li>
                     <li><strong>Sistema:</strong> Liga todos contra todos</li>
                     <li><strong>Partidas:</strong> Al mejor de 3 (Bo3)</li>
-                    <li><strong>Rango ELO permitido:</strong> 800-1200</li>
-                    <li><strong>Cierre de inscripciones:</strong> Las inscripciones estan abiertas hasta el día 29/11/2024 a las 22:00hs UTC-3</li>
+                    <li><strong>Rango ELO permitido:</strong> 800-1400</li>
+                    <li><strong>Cierre de inscripciones:</strong> 29/11/2024 a las 22:00hs UTC-3</li>
                 </ul>
 
-                <h3>Sistema de Zonas</h3>
-                <p>Una vez cerrada la inscripción se procederá a dividir a los jugadores en Zonas de acuerdo a su ELO, buscando un equilibrio entre el ELO de los competidores y la cantidad de participantes de cada Zona.</p>
+                <h3>Sistema de Categorías y Zonas</h3>
+                
+                <p>Los competidores serán divididos en Categorías según su ELO, con un máximo de 20 participantes por Categoría. Cada Categoría se subdividirá en 2 Zonas (Zona 1 y Zona 2) de máximo 10 participantes cada una. En caso de cantidad impar de participantes al momento de realizar la división, la Zona 2 contará con mayoría de participantes.</p>
+                <h4>Rangos de ELO por Categoría y Zona:</h4>
+                <ul>
+                    <li><strong>Categoría A</strong>
+                        <ul>
+                            <li>Zona 1: 1300-1400</li>
+                            <li>Zona 2: 1200-1299</li>
+                        </ul>
+                    </li>
+                    <li><strong>Categoría B</strong>
+                        <ul>
+                            <li>Zona 1: 1100-1199</li>
+                            <li>Zona 2: 1000-1099</li>
+                        </ul>
+                    </li>
+                    <li><strong>Categoría C</strong>
+                        <ul>
+                            <li>Zona 1: 900-999</li>
+                            <li>Zona 2: 800-899</li>
+                        </ul>
+                    </li>
+                </ul>
 
+                <p>Los rangos de ELO mencionados son referenciales y podrán ajustarse según la cantidad y ELO de los participantes inscriptos, manteniendo siempre el espíritu de una competencia equilibrada.</p>
+
+                <h4>Proceso de División en Zonas:</h4>
+                <ol>
+                    <li>Los participantes serán listados en orden descendente según su ELO.</li>
+                    <li>Se asignarán a la Categoría en la que se hayan inscripto, salvo que su ELO sea superior al rango permitido para dicha Categoría; En cuyo caso serán reubicado en la Categoría que corresponda.</li>
+                    <li>Dentro de cada Categoría, la división en Zonas se realizará de la siguiente manera:
+                        <ul>
+                            <li>Los primeros X participantes conformarán la Zona 1. Donde X se corresponde con el resultado de dividir en 2 la cantidad de participantes de la categoría, habiendo previamente restado 1 sólo en caso de ser impar la cantidad de participantes.</li>
+                            <li>Los siguientes X participantes conformarán la Zona 2. Donde X se corresponde con el resultado de dividir en 2 la cantidad de participantes de la categoría, habiendo previamente sumado 1 sólo en caso de ser impar la cantidad de participantes.</li>
+                            <li>Este proceso se repetirá para cada Categoría subsiguiente</li>
+                        </ul>
+                    </li>
+                </ol>
                 <div class="important-note">
                     <strong>Validación de ELO:</strong>
                     <ul>
                         <li>El ELO será validado en <a href="https://www.aoe2insights.com/" target="_blank">aoe2insights.com</a></li>
+                        <li>La validación se realizará una vez cerradas las inscripciones</li>
                         <li>En caso de haber diferencia entre el ELO informado y el validado, quedará a criterio de los administradores cuál será el ELO a tener en cuenta.</li>
                     </ul>
                 </div>
@@ -191,8 +228,16 @@
                 <h2><i class="fas fa-play-circle"></i> Series y Partidas</h2>
                 <h3>Tiempo y Organización</h3>
                 <ul>
+                    <li>Se proporcionará un cronograma completo de la competencia a través del servidor oficial de Discord.</li>
+                    <li>El cronograma incluirá:
+                        <ul>
+                            <li>Todos los encuentros a disputarse</li>
+                            <li>Rango de fechas para la disputa de cada serie</li>
+                            <li>Número de Jornada</li>
+                            <li>Jugadores que compiten</li>
+                        </ul>
+                    </li>
                     <li>Cada serie debe disputarse en el lapso de tiempo indicado por los administradores.</li>
-                    <li>El lapso de tiempo será de 5 días para cada Serie.</li>
                     <li>El período comienza con la publicación oficial de las Series.</li>
                 </ul>
 
@@ -200,6 +245,7 @@
                 <div class="important-note">
                     <strong>Responsabilidad de los Jugadores:</strong>
                     <p>Una vez informadas las series y presentados entre sí los jugadores, será responsabilidad de éstos la coordinación y realización de la disputa de las partidas de la serie.</p>
+                    <p>En caso de no lograr un acuerdo para la disputa de una partida, los jugadores podrán solicitar la mediación de los administradores quienes tendrán total facultad de dar por perdido el partido a ambos jugadores si no se llega a un acuerdo dentro de los tiempos estipulados.</p>
                 </div>
 
                 <h3>Reporte de Resultados</h3>
@@ -216,8 +262,11 @@
                 <div class="important-note">
                     <strong>Notas Importantes:</strong>
                     <ul>
-                        <li>Cualquier jugador puede informar el resultado de la partida</li>
+                        <li>El ganador de cada partida tiene la obligación de informar el resultado</li>
+                        <li>El reporte debe realizarse en el servidor oficial de Discord en el canal correspondiente a su Categoría y Zona</li>
+                        <li>Los resultados deben reportarse partida por partida</li>
                         <li>Ninguna partida será válida sin su archivo de repetición</li>
+                        <li>En caso de requerir ayuda para localizar el archivo de repetición de la partida, será responsabilidad del participante informar esta situación en el chat-general del servidor oficial de Discord.</li>
                         <li>Las repeticiones serán utilizadas para fiscalización y resolución de disputas</li>
                     </ul>
                 </div>
@@ -254,7 +303,8 @@
                 <h3>Determinación del Ganador</h3>
                 <ul>
                     <li>Habrá 1 ganador por cada Zona</li>
-                    <li>Será ganador el participante que sume la mayor cantidad de puntos al finalizar</li>
+                    <li>Será ganador de Zona el participante que sume la mayor cantidad de puntos al finalizar</li>
+                    <li>Los ganadores de cada Zona de una misma Categoría se enfrentarán entre sí en una serie al mejor de 5 (Bo5) para determinar el campeón de la Categoría</li>
                 </ul>
 
                 <h3>Sistema de Desempate</h3>
@@ -308,6 +358,10 @@
                         <td>Advertencia/Descalificación según gravedad</td>
                     </tr>
                 </table>
+            </section>
+            <section id="disclaimer">
+                <h2>Disposiciones Finales</h2>
+                <p>Los administradores de la Liga de Mancos 2024 se reservan el derecho de realizar modificaciones al presente reglamento cuando lo consideren necesario para el correcto desarrollo de la competencia. Cualquier situación no prevista en este reglamento será resuelta por los administradores, cuyas decisiones serán inapelables y de cumplimiento obligatorio para todos los participantes.</p>
             </section>
         </main>
     </div>
